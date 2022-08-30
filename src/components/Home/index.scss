@@ -1,0 +1,139 @@
+@import '../../style/maincolors.scss';
+.homePage {
+  .textZone {
+    z-index: 2;
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: $text-active;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    user-select: none;
+    
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: $primary-color;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: $primary-color;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    // img {
+    //   margin-left: 20px;
+    //   opacity: 0;
+    //   width: 32px;
+    //   height: auto;
+    //   animation: rotateIn 1s linear both;
+    //   animation-delay: 1.4s;
+    // }
+  }
+
+  h2 {
+    color: $text-color;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+    user-select: none;
+  }
+
+  .flatButton {
+    color: $primary-color;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 12px 18px;
+    border: 1.2px solid $primary-color;
+    // border: 1.2px solid;
+    // border-image-slice: 1;
+    // border-image-source: $gradient-color;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    transition: 0.3s ease-out;
+    white-space: nowrap;
+    user-select: none;
+
+    &:hover {
+      // background-color: $primary-color;
+      color: $text-active;
+      // border: 1.2px solid $gradient-color;
+      background: $green-color;
+      transition: 0.3s ease-out;
+      transform: translateY(-3px);
+    }
+  }
+
+  .shapeZone {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    // background-color: $green-color;
+    transform: translateY(-76px);
+    overflow: hidden;
+    z-index: 1;
+
+    .shapeZoneCircle {
+      position: relative;
+      border-radius: 500px;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-image: $gradient-color;
+      overflow: hidden;
+      animation: fadeInRight 1s 1.8s backwards;
+      top: -10%;
+
+      .shapeZoneImage {
+        position: relative;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        z-index: 4;
+        object-fit: cover;
+        animation: fadeInRight 1s 1.9s backwards;
+      }
+      .shapeZoneImageBack {
+        position: absolute;
+        color: aliceblue;
+        top: 75px;
+        right: -6px;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        object-fit: cover;
+        animation: fadeInRight 1s 2s backwards;
+      }
+    }
+  }
+}
