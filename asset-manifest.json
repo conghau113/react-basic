@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-basic/static/css/main.f0c0a519.css",
+    "main.js": "/react-basic/static/js/main.8af1acb3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-basic/static/js/787.1ed0c42c.chunk.js",
+    "static/media/NCH.jpg": "/react-basic/static/media/NCH.0b2a4fe17699d9697355.jpg",
+    "static/media/nch-bw.png": "/react-basic/static/media/nch-bw.c8ce81c750f8892c50fc.png",
+    "static/media/carashop.png": "/react-basic/static/media/carashop.5b3042c7e9b413a64158.png",
+    "static/media/nch-w.png": "/react-basic/static/media/nch-w.706f784d02850b7abadf.png",
+    "static/media/helvetica-neu.ttf": "/react-basic/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/react-basic/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/react-basic/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/react-basic/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-basic/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-basic/index.html",
+    "main.f0c0a519.css.map": "/react-basic/static/css/main.f0c0a519.css.map",
+    "main.8af1acb3.js.map": "/react-basic/static/js/main.8af1acb3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-basic/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0c0a519.css",
+    "static/js/main.8af1acb3.js"
+  ]
+}
